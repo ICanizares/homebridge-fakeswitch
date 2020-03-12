@@ -1,37 +1,24 @@
 {
-    "name": "homebridge-webos-tv",
-    "version": "1.6.4",
-    "description": "Homebridge plugin for LG webOS TVs",
-    "main": "index.js",
-    "engines": {
-      "node": ">=4.3.2",
-      "homebridge": ">=0.4.46"
-    },
-    "keywords": [
-      "homebridge-plugin",
-      "webos2",
-      "webos3",
-      "webos4",
-      "lgtv",
-      "homebridge",
-      "webos",
-      "homekit"
-    ],
-    "author": "merdok",
-    "license": "MIT",
-    "dependencies": {
-      "lgtv2": "^1.4.1",
-      "wake_on_lan": "^0.0.4",
-      "tcp-ping": "^0.1.1",
-      "mkdirp": "^0.5.1",
-      "persist-path": "^1.0.2"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/merdok/homebridge-webos-tv.git"
-    },
-    "bugs": {
-      "url": "https://github.com/merdok/homebridge-webos-tv/issues"
-    },
-    "homepage": "https://github.com/merdok/homebridge-webos-tv#readme"
+  "name": "homebridge-fakeswitch",
+  "version": "0.0.2",
+  "description": "Fake switch plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "Thomas Nemec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thncode/homebridge-fakeswitch.git"
+  },
+  "dependencies": {
+    "request": "^2.65.0",
+    "node-persist": "^2.1.0"
   }
+}
