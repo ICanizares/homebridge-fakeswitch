@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-fakeswitch",
-  "version": "0.0.2",
+  "name": "homebridge-icr-fakeswitch",
+  "version": "1.0.0",
   "description": "Fake switch plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "MIT",
   "keywords": [
@@ -11,11 +11,11 @@
     "homebridge": ">=0.2.0"
   },
   "author": {
-    "name": "Thomas Nemec"
+    "name": "ICanizares"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thncode/homebridge-fakeswitch.git"
+    "url": "git://github.com/ICanizares/homebridge-fakeswitch.git"
   },
   "dependencies": {
     "request": "^2.65.0",
